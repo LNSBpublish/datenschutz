@@ -74,6 +74,12 @@ a:hover { text-decoration-thickness: 2px; }
   border-bottom-color: var(--accent);
 }
 
+.site-nav a.lang-switch {
+  margin-left: 22px;
+  padding-left: 22px;
+  border-left: 1px solid var(--hairline);
+}
+
 .site-footer {
   border-top: 1px solid var(--hairline);
   margin-top: 64px;
