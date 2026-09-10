@@ -76,8 +76,20 @@ a:hover { text-decoration-thickness: 2px; }
 
 .site-nav a.lang-switch {
   margin-left: 22px;
-  padding-left: 22px;
-  border-left: 1px solid var(--hairline);
+  padding: 5px 12px;
+  border: 1px solid var(--hairline);
+  border-radius: 20px;
+  color: var(--ink-soft);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.site-nav a.lang-switch:hover {
+  color: var(--paper);
+  background: var(--accent);
+  border-color: var(--accent);
 }
 
 .site-footer {
